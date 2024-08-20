@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(89, 150, 10);
+}
+
+#cabecalho {
+    background-color: rgb(89, 150, 10);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Dancing Script", cursive;
+    font-size: 3em;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title{
+    font-family: "DM Serif Text", serif;
+}
+
+.section-title span {
+    color: rgb(89, 150, 10);
+}
+
+#sobre-o-casamento,
+#cardapio {
+    background-color: rgb(226, 238, 211);
+}
+
+.text-colored{
+    color: rgb(89, 150, 10);
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: rgb(89, 150, 10);
+    color:#fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: rgb(89, 150, 10);
+}
+
+.social-links{
+    list-style: none;
+    display: flex;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
